@@ -1,0 +1,177 @@
+/* *******************************************************
+                     Global Values
+******************************************************* */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body,
+html {
+  background-color: rgb(252, 250, 250) ;
+  color: black;
+  font-size: 1.3em;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden !important;
+}
+
+/*  Header Styles
+/* ------------------------------------------------------------------ */
+
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/header-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+    background-attachment: scroll;  
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    background-position: 40% 60%;
+}
+
+.inner-container {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  height: auto;
+  margin-top: 280px;
+  border-radius: 30px;
+}
+
+.name{
+  font-size: 5em;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.intro {
+  margin-top: -17px;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.header-brake {
+  margin: auto;
+  width: 75%;
+  border-width: 100;
+  opacity: 0.3;
+  color: white;
+}
+
+/* --------------- */
+/* ---------- Social Medial Header Links------------- */
+/* --------------- */
+
+
+div.social-media{
+  padding-top: 40px;
+}
+
+div.social-media a{
+  font-size: .7em;
+  float: center;
+  padding: 15px;
+  list-style:none;
+  color: white;
+}
+
+
+.hvr-ldin :hover {
+  color: #0077B5;
+  transform: scale(1.5);
+  transition: .5s;
+}
+
+.hvr-fb :hover {
+  color: #3B5998;
+  transform: scale(1.5);
+  transition: .5s;
+}
+
+.hvr-insta :hover {
+  background: linear-gradient(45deg, #405DE6 0%, #5851DB 25%, #833AB4 50%, #C43584 75%, #FD1D1D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.5);
+  transition: .5s;
+}
+
+.hvr-twtr :hover {
+  color: #1DA1F2;
+  transform: scale(1.5);
+  transition: .5s;
+}
+
+.hvr-gh :hover {
+  color: rgb(55, 41, 56) ;
+  transform: scale(1.5);
+  transition: .5s;
+}
+
+
+/*  About Me
+/* ------------------------------------------------------------------ */
+
+#about-me{
+  background-color: #696868; 
+  height: 600px;
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pro-pic-column {
+  border-radius: 19%;
+}
+
+.about-me { 
+  padding-left: 40px; 
+
+}
+
+.about-me-summary-column { 
+  max-width: 75%; 
+  padding-top: 8px;}
+
+.about-me-profile-row {
+  display: flex;
+  padding-top: 110px;
+  float: center;
+}
+
+
+
+
+
+
+
+
+
+/*  Media Queries
+/* ------------------------------------------------------------------ */
+
+@media only screen and (max-width: 920px){
+  .inner-container{
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 540px){
+  .inner-container{
+    margin-top: 150px;
+  }
+  h1{ font-size: 5em; }
+  h2{ font-size: 1.4em; }
+}
